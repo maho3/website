@@ -339,7 +339,7 @@ iframe {
 /* Info Section */
 .info .fa {
   margin-right: 15px;
-  color: #ccd1d6;
+  color: #999;
 }
 .info .fa.fa-envelope-o {
   font-size: 14px;
@@ -470,15 +470,17 @@ iframe {
 /* List section */
 .list ul li {
   margin-bottom: 10px;
+  color: #778492;
 }
 .list ul li .fa {
   margin-right: 5px;
-}
-.list ul li a {
   color: #778492;
 }
-.list ul li a:hover {
+.list ul li a {
   color: #49515a;
+}
+.list ul li a:hover {
+  color: #778492;
 }
 /* Credits */
 .credits ul li {
